@@ -1,0 +1,8 @@
+version: "3.4"
+
+services:
+  filters:
+    image: jhnnsrs/arnheim-filters:latest
+    command: pytest /modules
+    volumes:
+      - ./filters:/modules/filters
