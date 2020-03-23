@@ -10,4 +10,5 @@ Detailed documentation is in the "docs" directory.
 Quick start Arnheim
 ===================
 
+Make available through helm chart
 
