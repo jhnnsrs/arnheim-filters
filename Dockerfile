@@ -7,9 +7,7 @@ LABEL maintainer="jhnnsrs@gmail.com"
 #RUN pip install -r requirements.txt
 
 # Install Modules
-ADD filters /modules/filters
-ADD pytest.ini /modules/pytest.ini
-ENV DJANGO_SETTINGS_MODULE arbeid.settings
-ENV ARNHEIM_MODULES filters
 
-CMD python manage.py runallworkers
+# Install Modules
+ADD filters /code/filters
+ENV ARNHEIM_MODULES filters
