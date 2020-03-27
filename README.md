@@ -12,3 +12,6 @@ Quick start Arnheim
 
 Make available through helm chart
 
+Version
+======
+0.11
